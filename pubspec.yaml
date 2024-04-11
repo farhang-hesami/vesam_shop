@@ -1,0 +1,71 @@
+name: vesam_shop
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  
+  flutter_svg: ^2.0.7
+  dio: ^5.3.3
+  flutter_localizations:
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  carousel_slider: ^4.2.1
+  smooth_page_indicator: ^1.1.0
+ 
+  meta: ^1.9.1
+  persian_number_utility: ^1.1.3
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^5.0.2
+  shamsi_date: ^1.0.2
+  intl: ^0.18.1
+  hive_flutter:
+  url_launcher: ^6.2.3
+  uni_links: ^0.5.1
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  hive_generator:
+  build_runner:
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: YekanBakh
+      fonts:
+        - asset: assets/fonts/yekan_bakh_bold.ttf
+          weight: 700
+        - asset: assets/fonts/yekan_bakh_regular.ttf
+          weight: 400
+        - asset: assets/fonts/yekan_bakh_black.ttf
+          weight: 700
+
